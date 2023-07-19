@@ -11,11 +11,11 @@ const Home = () => {
     },[]) 
     return (
         <div className="text-center">
-            <Digit banana={Math.floor(counter/10000)}/>
-            <Digit banana={Math.floor(counter/1000)}/>
-            <Digit banana={Math.floor(counter/100)}/>
-            <Digit banana={Math.floor(counter/10)}/>
-            <Digit banana={Math.floor(counter/1)}/>
+            <Digit alpha={Math.floor(counter/10000)}/>
+            <Digit alpha={Math.floor(counter/1000)}/>
+            <Digit alpha={Math.floor(counter/100)}/>
+            <Digit alpha={Math.floor(counter/10)}/>
+            <Digit alpha={Math.floor(counter/1)}/>
         </div>
     );
 };
